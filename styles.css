@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*====================================== GENERAL STYLES =======================================*/
+
+/*----------General Navbar -----------*/
+
+
+.nav-container {
+    height: 7vh;
+    background-color: #917aed;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container ul {
+    display: flex;
+}
+
+.nav-container li {
+    height: 5vh;
+    min-width: 3vw;
+}
+
+.nav-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-container a:hover {
+    color: black;
+}
+
+.logo {
+    margin-left: 2em;
+    justify-self: flex-start;
+    width: 50%;
+}
+
+.logo li {
+    width: 4vw;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    justify-self: flex-end;
+    width: 50%;
+}
+
+.navigation li {
+    margin: 0;
+    width: 15em;
+}
+
+/*----------General Footer-----------*/
+
+.footer-container {
+    display: flex;
+    justify-content: flex-end;
+    justify-self: flex-end;
+    background-color: #917aed;
+}
+
+.instagram {
+    display: flex;
+    padding-top: 1vh;
+    padding-right: 2.5vw;
+}
+
+.text-instagram {
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.contact {
+    display: flex;
+}
+
+.text-contact{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white;
+
+}
+
+.text-instagram:hover {
+    color: black;
+}
+
+.text-contact:hover {
+    color: black;
+}
+
+/*=========================================== INDEX ===========================================*/
+
+.body-index{
+    background-color: blanchedalmond;
+}
+
+.logo-index{
+    margin-left: 50vh;
+    max-width: 50%;   
+    max-width: 50%;
+}
+
+.entrar{
+    margin-left: 103vh;
+    font-size: 30px;
+    color: rgb(142, 15, 147);
+}
+
+/*=========================================== SECTIONS ===========================================*/
+
+.index-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 7.3rem;
+}
+
+.img-section {
+    display: flex;
+
+}
+
+.text-section{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+    color: black;
+
+}
+
+.index-section a:hover{
+    color: #917aed;
+}
+
+/*=========================================== SNAKERS ===========================================*/
+
+
+.main-container {
+    display: flex; 
+    height: 50%;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+
+.zapatillas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zapatillas img {
+    display: flex;
+    align-items: center;;
+    margin: 30px;
+}
+
+.text-airforce{
+    display: flex;
+    margin: 3vw;
+    padding: 2.3vw;
+    color: black;
+    text-decoration: none;
+}
+
+.text-airmax{
+    display: flex;
+    margin: 3vw;
+    padding: 2.3vw;
+    color: black;
+    text-decoration: none;
+}
+
+.text-retro{
+    display: flex;
+    margin: 3vw;
+    padding: 2.3vw;
+    color: black;
+    text-decoration: none;
+}
+
+.zapatillas a:hover {
+    color: #917aed;
+}
+
+/*=========================================== DESIGN ===========================================*/
+
+.index-design {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 7.3rem;
+}
+
+.img-design {
+    display: flex;
+
+}
+
+.text-design{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+    color: black;
+
+}
+
+.index-design a:hover{
+    color: #917aed;
+}
+
+/*======================================= BUILD YOUR DESIGN ========================================*/
+
+.text-buildyourdesign{
+    display: flex;
+    align-content: center;
+    background-color: black;
+    color:#917aed
+
+}
+
+
+/*============================================= USER ================================================*/
+
+
+
+
+
+/*=========================================== FAILSCREEN =============================================*/
+
+.fail-container{
+    display: grid;
+    background-color: crimson;
+    color: white;
+    grid-template-columns: 50%;
+    grid-template-rows: 100px 100px;
+    justify-content: center;
+}
+
+#fail{
+    margin-top: 150px;
+    margin-left: 13rem;
+}
+
+#experience{
+    margin-top: 150px;
+    margin-left: 5rem;
+}
+
+#prox{
+    margin-top: 150px;
+    margin-left: 8rem
+}
+
+
+
